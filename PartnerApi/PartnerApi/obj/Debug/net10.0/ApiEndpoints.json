@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "PartnerApi.Controllers.TransactionController",
+    "Method": "SubmitTransaction",
+    "RelativePath": "api/submittrxmessage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PartnerApi.Models.PaymentRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

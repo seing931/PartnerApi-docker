@@ -1,0 +1,53 @@
+2026-09-12 17:37:23,522 [2] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7257
+2026-09-12 17:37:23,548 [2] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5019
+2026-09-12 17:37:23,721 [2] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2026-09-12 17:37:23,721 [2] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2026-09-12 17:37:23,721 [2] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\HP\Desktop\FOURTITUDE ASIA\PartnerApi\PartnerApi
+2026-09-12 17:40:09,280 [2] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7257
+2026-09-12 17:40:09,318 [2] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5019
+2026-09-12 17:40:09,627 [2] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2026-09-12 17:40:09,628 [2] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2026-09-12 17:40:09,628 [2] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\HP\Desktop\FOURTITUDE ASIA\PartnerApi\PartnerApi
+2026-09-12 17:41:29,175 [8] INFO  PartnerApi.Logging.Log4NetLoggingMiddleware - [REQ-b3b8753d507c] Method: GET | Path: / | IP: ::1
+2026-09-12 17:41:29,176 [8] INFO  PartnerApi.Logging.Log4NetLoggingMiddleware - [REQ-b3b8753d507c] Request Body: 
+2026-09-12 17:41:29,178 [8] INFO  PartnerApi.Logging.Log4NetLoggingMiddleware - [RESP-b3b8753d507c] Status: 404
+2026-09-12 17:41:29,178 [8] INFO  PartnerApi.Logging.Log4NetLoggingMiddleware - [RESP-b3b8753d507c] Response Body: 
+2026-09-12 17:43:30,442 [8] INFO  PartnerApi.Logging.Log4NetLoggingMiddleware - [REQ-89c6e92de941] Method: POST | Path: /api/submittrxmessage | IP: ::1
+2026-09-12 17:43:30,442 [8] INFO  PartnerApi.Logging.Log4NetLoggingMiddleware - [REQ-89c6e92de941] Request Body: {"partnerkey":"FAKEGOOGLE","partnerrefno":"FG-00001","partnerpassword":"[ENCRYPTED_AES256:jd0z49m7Uw7rAoTbcgTqY8q4lxzozANevCdnHhquMnz2I9bgN7WVcmYz997X4vXj4pKR2w==]","totalamount":1000,"items":[{"partneritemref":"i-00001","name":"Pen","qty":4,"unitprice":200},{"partneritemref":"i-00002","name":"Ruler","qty":2,"unitprice":100}],"timestamp":"2024-08-15T02:11:22.0000000Z","sig":"MDE3ZTBkODg4ZDNhYzU0ZDBlZWRmNmU2NmUyOWRhZWU4Y2M1NzQ1OTIzZGRjYTc1ZGNjOTkwYzg2MWJlMDExMw=="}
+2026-09-12 17:43:30,919 [8] INFO  PartnerApi.Logging.Log4NetLoggingMiddleware - [RESP-89c6e92de941] Status: 200
+2026-09-12 17:43:30,919 [8] INFO  PartnerApi.Logging.Log4NetLoggingMiddleware - [RESP-89c6e92de941] Response Body: {"result":0,"totalAmount":null,"totalDiscount":null,"finalAmount":null,"resultMessage":"Expired."}
+2026-09-12 17:59:04,266 [21] INFO  PartnerApi.Logging.Log4NetLoggingMiddleware - [REQ-c0854d9ac9bb] Method: POST | Path: /api/submittrxmessage | IP: ::1
+2026-09-12 17:59:04,266 [21] INFO  PartnerApi.Logging.Log4NetLoggingMiddleware - [REQ-c0854d9ac9bb] Request Body: {"partnerkey":"FAKEGOOGLE","partnerrefno":"FG-00001","partnerpassword":"[ENCRYPTED_AES256:ar10v1fQsXQNh4Lhg1hq6ixH\u002BqAHS\u002BdulNo69Z5rc0jPOjEKmFzbsGaxhNRj8VWZg03G9w==]","totalamount":100000,"items":[{"partneritemref":"ITEM-001","name":"Monitor","qty":2,"unitprice":50000}],"timestamp":"2024-08-15T02:11:22.0000000Z","sig":"MDE3ZTBkODg4ZDNhYzU0ZDBlZWRmNmU2NmUyOWRhZWU4Y2M1NzQ1OTIzZGRjYTc1ZGNjOTkwYzg2MWJlMDExMw=="}
+2026-09-12 17:59:04,270 [21] INFO  PartnerApi.Logging.Log4NetLoggingMiddleware - [RESP-c0854d9ac9bb] Status: 200
+2026-09-12 17:59:04,270 [21] INFO  PartnerApi.Logging.Log4NetLoggingMiddleware - [RESP-c0854d9ac9bb] Response Body: {"result":0,"totalAmount":null,"totalDiscount":null,"finalAmount":null,"resultMessage":"Expired."}
+2026-09-12 17:59:08,398 [21] INFO  PartnerApi.Logging.Log4NetLoggingMiddleware - [REQ-ef9e03b4473f] Method: POST | Path: /api/submittrxmessage | IP: ::1
+2026-09-12 17:59:08,398 [21] INFO  PartnerApi.Logging.Log4NetLoggingMiddleware - [REQ-ef9e03b4473f] Request Body: {"partnerkey":"FAKEGOOGLE","partnerrefno":"FG-00001","partnerpassword":"[ENCRYPTED_AES256:vCgdfqLikHzfV3CN6\u002BFuLhnbG4iJcjvIU\u002BFGJ8PZ86jRZnA2dELjS\u002BALfT7H6srqZFx\u002BqA==]","totalamount":100000,"items":[{"partneritemref":"ITEM-001","name":"Monitor","qty":2,"unitprice":50000}],"timestamp":"2024-08-15T02:11:22.0000000Z","sig":"MDE3ZTBkODg4ZDNhYzU0ZDBlZWRmNmU2NmUyOWRhZWU4Y2M1NzQ1OTIzZGRjYTc1ZGNjOTkwYzg2MWJlMDExMw=="}
+2026-09-12 17:59:08,399 [21] INFO  PartnerApi.Logging.Log4NetLoggingMiddleware - [RESP-ef9e03b4473f] Status: 200
+2026-09-12 17:59:08,399 [21] INFO  PartnerApi.Logging.Log4NetLoggingMiddleware - [RESP-ef9e03b4473f] Response Body: {"result":0,"totalAmount":null,"totalDiscount":null,"finalAmount":null,"resultMessage":"Expired."}
+2026-09-12 18:11:43,996 [2] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7257
+2026-09-12 18:11:44,030 [2] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5019
+2026-09-12 18:11:44,207 [2] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2026-09-12 18:11:44,208 [2] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2026-09-12 18:11:44,208 [2] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\HP\Desktop\FOURTITUDE ASIA\PartnerApi\PartnerApi
+2026-09-12 18:11:50,961 [8] INFO  PartnerApi.Logging.Log4NetLoggingMiddleware - [REQ-c07b45e1c253] Method: POST | Path: /api/submittrxmessage | IP: ::1
+2026-09-12 18:11:50,961 [8] INFO  PartnerApi.Logging.Log4NetLoggingMiddleware - [REQ-c07b45e1c253] Request Body: {"partnerkey":"FAKEGOOGLE","partnerrefno":"FG-00001","partnerpassword":"[ENCRYPTED_AES256:n\u002BEBaxZohG45fk85ZimLTcC7XD2WJvzYwHUjENOTTEYXZDhPlkB3aPh3MlVyIsYNtPVWdw==]","totalamount":1000,"items":[{"partneritemref":"i-00001","name":"Pen","qty":4,"unitprice":200},{"partneritemref":"i-00002","name":"Ruler","qty":2,"unitprice":100}],"timestamp":"2024-08-15T02:11:22.0000000Z","sig":" MDE3ZTBkODg4ZDNhYzU0ZDBlZWRmNmU2NmUyOWRhZWU4Y2M1NzQ1OTIzZGRjYTc1ZGNjOTkwYzg2MWJlMDExMw=="}
+2026-09-12 18:11:51,527 [8] INFO  PartnerApi.Logging.Log4NetLoggingMiddleware - [RESP-c07b45e1c253] Status: 200
+2026-09-12 18:11:51,527 [8] INFO  PartnerApi.Logging.Log4NetLoggingMiddleware - [RESP-c07b45e1c253] Response Body: {"result":0,"totalAmount":null,"totalDiscount":null,"finalAmount":null,"resultMessage":"Expired."}
+2026-09-12 18:11:57,643 [8] INFO  PartnerApi.Logging.Log4NetLoggingMiddleware - [REQ-1b41588b7db3] Method: POST | Path: /api/submittrxmessage | IP: ::1
+2026-09-12 18:11:57,643 [8] INFO  PartnerApi.Logging.Log4NetLoggingMiddleware - [REQ-1b41588b7db3] Request Body: {"partnerkey":"FAKEGOOGLE","partnerrefno":"FG-00001","partnerpassword":"[ENCRYPTED_AES256:cFwtsnmahHkQtWG0Nr53rHeOzySl2Kk7nDEmX4THjvMvHty6Ob5QP6a83Nv/BNx8jBeFkg==]","totalamount":1000,"items":[{"partneritemref":"i-00001","name":"Pen","qty":4,"unitprice":200},{"partneritemref":"i-00002","name":"Ruler","qty":2,"unitprice":100}],"timestamp":"2024-08-15T02:11:22.0000000Z","sig":" MDE3ZTBkODg4ZDNhYzU0ZDBlZWRmNmU2NmUyOWRhZWU4Y2M1NzQ1OTIzZGRjYTc1ZGNjOTkwYzg2MWJlMDExMw=="}
+2026-09-12 18:11:57,651 [8] INFO  PartnerApi.Logging.Log4NetLoggingMiddleware - [RESP-1b41588b7db3] Status: 200
+2026-09-12 18:11:57,651 [8] INFO  PartnerApi.Logging.Log4NetLoggingMiddleware - [RESP-1b41588b7db3] Response Body: {"result":0,"totalAmount":null,"totalDiscount":null,"finalAmount":null,"resultMessage":"Expired."}
+2026-09-12 18:12:05,371 [9] INFO  PartnerApi.Logging.Log4NetLoggingMiddleware - [REQ-649dafeb7a58] Method: POST | Path: /api/submittrxmessage | IP: ::1
+2026-09-12 18:12:05,371 [9] INFO  PartnerApi.Logging.Log4NetLoggingMiddleware - [REQ-649dafeb7a58] Request Body: {"partnerkey":"FAKEGOOGLE","partnerrefno":"FG-00001","partnerpassword":"[ENCRYPTED_AES256:gHIA8BPEWjW5n/bLEuLoDpClzgMvbfTQLU0i\u002Bsc/gMofyocJVS67gPHRO3CGY0qa6nzZkw==]","totalamount":1000,"items":[{"partneritemref":"i-00001","name":"Pen","qty":4,"unitprice":200},{"partneritemref":"i-00002","name":"Ruler","qty":2,"unitprice":100}],"timestamp":"2024-08-15T02:11:22.0000000Z","sig":" MDE3ZTBkODg4ZDNhYzU0ZDBlZWRmNmU2NmUyOWRhZWU4Y2M1NzQ1OTIzZGRjYTc1ZGNjOTkwYzg2MWJlMDExMw=="}
+2026-09-12 18:12:05,372 [9] INFO  PartnerApi.Logging.Log4NetLoggingMiddleware - [RESP-649dafeb7a58] Status: 200
+2026-09-12 18:12:05,373 [9] INFO  PartnerApi.Logging.Log4NetLoggingMiddleware - [RESP-649dafeb7a58] Response Body: {"result":0,"totalAmount":null,"totalDiscount":null,"finalAmount":null,"resultMessage":"Expired."}
+2026-09-12 18:30:33,402 [2] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7257
+2026-09-12 18:30:33,432 [2] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5019
+2026-09-12 18:30:33,620 [2] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2026-09-12 18:30:33,621 [2] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2026-09-12 18:30:33,621 [2] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\HP\Desktop\FOURTITUDE ASIA\PartnerApi\PartnerApi
+2026-09-12 18:47:35,113 [2] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7257
+2026-09-12 18:47:35,197 [2] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5019
+2026-09-12 18:47:35,453 [2] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2026-09-12 18:47:35,454 [2] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2026-09-12 18:47:35,454 [2] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\HP\Desktop\FOURTITUDE ASIA\PartnerApi\PartnerApi
